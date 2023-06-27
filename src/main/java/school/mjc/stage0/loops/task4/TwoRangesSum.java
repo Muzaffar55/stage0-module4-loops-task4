@@ -5,7 +5,7 @@ public class TwoRangesSum {
         int skippedSum = 0;
         int restSum = 0;
         if (numberToSkip > lastInRow) {
-            System.out.println("number to skip is bugger then the last");
+            System.out.println("number to skip is bigger then the last");
         } else if (lastInRow < 0) {
             System.out.println("last number in row is negative");
         } else {
